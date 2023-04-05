@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb//localhost:27017/runingOlymics")
+  .connect("mongodb://127.0.0.1:27017/runningOlymics",{
+  })
   .then(() => {
     console.log("This project has connected to mongodb.");
   })
