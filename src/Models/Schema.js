@@ -33,4 +33,4 @@ const rankerSchema = new mongoose.Schema({
 })
 
 // Creating new collection
-const Rankers = new mongoose.model("Rankers",rankerSchema)   
+const Rankers = new mongoose.model("Rankers",rankerSchema)

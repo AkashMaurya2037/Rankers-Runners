@@ -36,3 +36,5 @@ app.post("/readDatas", async (req, res) => {
 app.listen(port, () => {
   console.log(`Connection with ${port} is live now.`);
 });
+
+//  TESTING THAT COMMIT IS WORKING OR NOT BECAUSE I AM LEARNING GIT AND GITHUB 
