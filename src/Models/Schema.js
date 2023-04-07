@@ -11,11 +11,6 @@ const rankerSchema = new mongoose.Schema({
         required:true,
         trim:true,
      },
-     dob:{
-        type:Date,
-        required:true,
-        trim:true
-     },
      country:{
         type:String,
         required:true,
@@ -34,3 +29,5 @@ const rankerSchema = new mongoose.Schema({
 
 // Creating new collection
 const Rankers = new mongoose.model("Rankers",rankerSchema)
+
+module.exports = Rankers;
