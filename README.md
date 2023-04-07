@@ -1,5 +1,5 @@
 
-# Runners with Ranks
+# CRUD on Rest API
 
 Welcome to my GitHub project! This is a small practice project that I created to develop my skills in building RESTful APIs using NodeJS, Express, MongoDB, Mongoose, and Postman. Through this project, I gained hands-on experience in designing and implementing APIs, creating robust database schemas, and testing APIs using Postman.
 
